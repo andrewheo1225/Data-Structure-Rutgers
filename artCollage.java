@@ -207,6 +207,7 @@ public class ArtCollage {
      * @param collageRow tile row
      */
     public void colorizeTile(String component, int collageCol, int collageRow) {
+
             for(int row = 0; row < collage.height()/tileDimension; row++) {
                 for (int col = 0; col < collage.height()/tileDimension; col++) {
                     if (col== collageCol && row == collageRow ) {
